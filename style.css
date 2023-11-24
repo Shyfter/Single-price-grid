@@ -1,0 +1,134 @@
+
+h1, h3, h4 {
+    margin: 0;
+    padding:0;
+    line-height: 30px;
+}
+
+body{
+    background-color: hsl(219, 13%, 74%);
+    font-family: Karla;
+}
+
+.main-container {
+    width: 600px;
+    height:fit-content;
+    display: block;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(102, 102, 102, 0.5);
+    
+}
+
+.bottom-boxes {
+    display: inline-flex;
+    
+}
+
+.join-community {
+   /* border:2px red solid; */
+    padding:30px;
+    width:540px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.monthly-subscription, .why-us {
+  /*  border:2px red solid; */
+    background-color:#1B898C;
+    padding:30px;
+    width: 240px;
+    color: white;
+}
+
+.monthly-subscription{
+    border-radius: 0 0 0 5px;
+}
+
+.price b{
+margin-right: 5px;
+font-size:x-large;
+}
+
+.join-community h4{
+    color: #BFDF32;
+}
+
+.join-community p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.why-us {
+    background-color:#3C9998;
+    border-radius: 0 0  5px 0;
+}
+
+.why-us-list {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.join-community h3 {
+    color: #2BB3B1;
+    padding: 0 0 12px 0;
+}
+
+button {
+    line-height: 40px;
+    width:220px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color:#b1cd33 ;
+    color:#f4f5f5;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgba(102, 102, 102, 0.5);
+}
+
+@media (max-width: 1439.5px) {
+
+.main-container{
+    display: block;
+    width: 320px;
+}
+
+.bottom-boxes {
+    display: block;
+    border-radius: 0 0 5px 5px;
+    margin-top:-10px;
+}
+
+.monthly-subscription{
+    border-radius: 0;
+}
+
+.why-us {
+    border-radius: 0 0 5px 5px;
+}
+
+
+.monthly-subscription{
+    margin-top:-5px;
+}
+
+.monthly-subscription, .why-us, .join-community {
+    width: 280px;
+    padding: 20px;
+}
+
+button {
+    width: 280px;
+}
+
+}
